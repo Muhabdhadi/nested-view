@@ -6,6 +6,7 @@ import {ChildBComponent} from "./first/child-b/child-b.component";
 
 const routes: Routes = [
     { path: '', redirectTo: '/first-component', pathMatch: 'full' },
+
     {
         path: 'first-component',
         component: FirstComponent,
@@ -20,6 +21,7 @@ const routes: Routes = [
             }
         ]
     },
+
     { path: 'second-component', component: SecondComponent }
 ];
 
